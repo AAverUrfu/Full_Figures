@@ -1,6 +1,7 @@
-def factorial(n):
-  if n == 0:
-    return 1
-  else:
-    return n * factorial(n - 1)
-print(factorial(5))
+class Figure():
+  def __init__(self):
+    print("Создание figure.")
+  def show(self):
+    print("I am figure!")
+f = Figure()
+f.show()
